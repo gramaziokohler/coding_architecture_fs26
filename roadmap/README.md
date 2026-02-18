@@ -1,6 +1,6 @@
 # Roadmap: becoming a computational designer
 
-[![roadmap](../_static/roadmap-small.png)](https://github.com/gramaziokohler/coding_architecture_fs65/raw/main/roadmap/roadmap.png)
+[![roadmap](../_static/roadmap-small.png)](https://github.com/gramaziokohler/coding_architecture_fs26/raw/main/roadmap/roadmap.png)
 
 - [Download the full resolution roadmap](https://github.com/gramaziokohler/coding_architecture_fs26/raw/main/roadmap/roadmap.png)
 - [Download Grasshopper file: comparing building blocks](comparing-building-blocks_fs26.gh)

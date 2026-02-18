@@ -33,7 +33,7 @@ The central platform for all course content is [Moodle](https://moodle-app2.let.
 
 ## Lectures
 
-* Week 00 | [📽️ Python Refresher video](https://youtu.be/RVdyx8F6A0c) | [📽️ Installation guide](TODO)
+* Week 00 | [📽️ Python Refresher video](https://youtu.be/RVdyx8F6A0c) | [📽️ Installation guide](https://youtu.be/a2k6VeNUShg)
 * [Week 01](/lectures/week-01/README.md) | [📚 Assignment A00: Ungraded](assignments/A00-compas-timber/README.md)
 
 ## Focus Work (Optional)

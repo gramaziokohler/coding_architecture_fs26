@@ -1,6 +1,6 @@
-# Coding Architecture I: HS25
+# Coding Architecture II: FS26
  
-## Week 01 - Python Basics
+## Week 01 - Reciprocal Frames with compas_timber
 
 ![Course Banner](../../_static/caii-banner_fs26.jpg)
 
@@ -18,6 +18,7 @@
   - [Grading](#grading)
   - [Assignments](#assignments)
   - [Software Requirements and Installation](#software-requirements-and-installation)
+- [Assignment A00](#assignment-a00)
 - [First Main Topic](#first-main-topic)
   - [Roadmap Recap](#roadmap-recap)
 - [Teaching Material](#teaching-material)
@@ -75,7 +76,7 @@ This course welcomes students from all backgrounds, but this semester requires f
 
 ![Semester Structure](../../_static/caii-semester-overview-fs26.jpg)
 
-The semester structure for Coding Architecture I is designed to progressively build your skills in programming and computational design. The course begins with foundational lessons in Python, gradually introducing more elaborate topics such as Object-Oriented Programming (OOP), Computational Geometry and the COMPAS framework. Each week is dedicated to a specific theme, ensuring a comprehensive understanding of the key concepts.
+The semester structure for Coding Architecture II is designed to progressively build your skills in programming and computational design. The course begins with the use of COMPAS Timber for simple timber frame structures, and then moves on to geometric algorithms and reciprocal frames with COMPAS Timber.
 
 Assignments are strategically spaced throughout the semester, starting with simpler tasks like constructing a simple timber reciprocal frame, and advancing to more challenging projects, culminating in a final project that integrates all the learned skills. The schedule also includes tutored sessions and review periods, providing sufficient opportunity for guided practice and feedback.
 
@@ -114,8 +115,15 @@ The course includes three major assignments that progressively increase in compl
 
 ### Software Requirements and Installation
 
-See [here](/getting-started/README.md) for details about software requirements and installation of the tools.
+See [here](../../getting-started/README.md) for details about software requirements and installation of the tools.
 
+## Assignment A00
+
+In this first assignment, you will familiarize yourself with `compas` and `compas_timber` by creating a manually constructed reciprocal frame node and transitioning to an automated, rule-based workflow using a custom class.
+
+**This is an ungraded assignment.**
+
+- [Assignment A00 Description](../../assignments/A00-compas-timber/README.md)
 
 ## First Main Topic
 
