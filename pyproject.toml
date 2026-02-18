@@ -1,0 +1,30 @@
+[project]
+name = "coding-architecture-fs26"
+version = "0.1.0"
+description = "Coding Architecture II FS26"
+readme = "README.md"
+requires-python = "~=3.9.0"
+dependencies = [
+    "compas==2.15.0",
+    "compas_timber==1.0.4",
+    "pythonnet", 
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "ruff",
+    "rhino-stubs",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 179
+
+[tool.ruff.lint]
+select = ["I"]
+
+[tool.ruff.lint.isort]
+force-single-line = true
