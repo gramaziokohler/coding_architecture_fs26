@@ -12,7 +12,7 @@ Before you begin the installation of the tools required for this course, make su
 
 Once that is done, follow the installation instructions with this step-by-step video:
 
-[![Installation guide](images/step-by-step-install.png)]([TODO](https://youtu.be/a2k6VeNUShg))
+[![Installation guide](images/step-by-step-install.png)](https://youtu.be/a2k6VeNUShg)
 
 **Troubleshooting**
 
