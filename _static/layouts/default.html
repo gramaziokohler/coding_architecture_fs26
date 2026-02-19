@@ -16,8 +16,11 @@
     <script>
       (() => {
         function postHeight() {
-          const height = document.documentElement.scrollHeight;
-          // Wir senden die Höhe an das Parent (Moodle)
+          // Wir messen die Höhe des Inhalts-Containers, statt des ganzen Dokuments
+          const wrapper = document.querySelector('.wrapper');
+          if (!wrapper) return;
+          
+          const height = wrapper.offsetHeight;
           parent.postMessage({ type: "caii:set-iframe-height", height: height }, "*");
         }
 
