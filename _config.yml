@@ -1,5 +1,6 @@
 title: Coding Architecture II FS26
 description: Coding Architecture II FS26 Course Material
-theme: jekyll-theme-slate
+theme: jekyll-theme-minimal
 baseurl: "/coding_architecture_fs26"
 url: "https://gramaziokohler.github.io"
+include: ["_static"]
