@@ -16,24 +16,27 @@
     <script>
       (() => {
         function postHeight() {
-          // Wir messen die Höhe des Inhalts-Containers, statt des ganzen Dokuments
           const wrapper = document.querySelector('.wrapper');
           if (!wrapper) return;
           
-          const height = wrapper.offsetHeight;
+          // Wir messen nur den Inhalt des Wrappers ohne Padding/Margin Einflüsse
+          const height = wrapper.getBoundingClientRect().height;
           parent.postMessage({ type: "caii:set-iframe-height", height: height }, "*");
         }
 
         window.addEventListener("load", postHeight);
         window.addEventListener("resize", postHeight);
         
-        // Beobachtet Änderungen am Layout (Bilder laden etc.)
+        // ResizeObserver nur auf den Wrapper anstatt auf das ganze Document
         if ("ResizeObserver" in window) {
-          new ResizeObserver(postHeight).observe(document.documentElement);
+          const wrapper = document.querySelector('.wrapper');
+          if (wrapper) {
+            new ResizeObserver(postHeight).observe(wrapper);
+          }
         }
         
-        // Regelmäßiges Update falls dynamische Inhalte nachladen
-        setInterval(postHeight, 1000);
+        // Selteneres Intervall reduziert die Wahrscheinlichkeit von Loops
+        setInterval(postHeight, 2000);
       })();
     </script>
   </body>
