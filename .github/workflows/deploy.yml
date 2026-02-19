@@ -27,7 +27,9 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Prepare assets for Jekyll
-        run: cp -r _static/assets .
+        run: |
+          cp -r _static/assets .
+          cp -r _static/layouts _layouts
 
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1

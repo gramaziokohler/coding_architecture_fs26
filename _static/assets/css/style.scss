@@ -36,9 +36,9 @@ section {
 // Den Container der alles umschließt (wrapper) für volle Breite öffnen
 .wrapper {
   width: 100% !important;
-  max-width: 1000px !important; // Begrenzt die Textbreite für bessere Lesbarkeit
+  max-width: 1200px !important; // Höhere max-width für breitere Screens
   margin: 0 auto !important;
-  padding: 20px !important;
+  padding: 10px !important; // Weniger Padding an den Seiten
 }
 
 // Den Footer ebenfalls ausblenden oder anpassen
