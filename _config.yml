@@ -4,3 +4,4 @@ theme: jekyll-theme-minimal
 baseurl: "/coding_architecture_fs26"
 url: "https://gramaziokohler.github.io"
 include: ["_static"]
+show_downloads: false
