@@ -1,4 +1,4 @@
-![Poster](/_static/caii-banner_fs26.jpg)
+![Poster](_static/caii-banner_fs26.jpg)
 
 # Coding Architecture II: FS26
 
@@ -16,16 +16,16 @@ In the spring semester, we dive into digital timber using the `compas_timber` li
 
 ## Semester Overview
 
-![Semester-overview](/_static/caii-semester-overview-fs26.jpg)
+![Semester-overview](_static/caii-semester-overview-fs26.jpg)
 
 ## Team
 
-![Team](/_static/caii-team-fs26.jpg)
-![Tutors](/_static/caii-tutors-fs26.jpg)
+![Team](_static/caii-team-fs26.jpg)
+![Tutors](_static/caii-tutors-fs26.jpg)
 
 ## Getting started
 
-See [here](/getting-started/README.md) for details about software requirements and installation of the tools.
+See [here](getting-started/README.md) for details about software requirements and installation of the tools.
 
 ## Course information
 
@@ -34,7 +34,7 @@ The central platform for all course content is [Moodle](https://moodle-app2.let.
 ## Lectures
 
 * Week 00 | [📽️ Python Refresher video](https://youtu.be/RVdyx8F6A0c) | [📽️ Installation guide](https://youtu.be/a2k6VeNUShg)
-* [Week 01](/lectures/week-01/README.md) | [📚 Assignment A00: Ungraded](assignments/A00-compas-timber/README.md)
+* [Week 01](lectures/week-01/README.md) | [📚 Assignment A00: Ungraded](assignments/A00-compas-timber/README.md)
 
 ## Focus Work (Optional)
 

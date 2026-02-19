@@ -131,9 +131,9 @@ In this first assignment, you will familiarize yourself with `compas` and `compa
 
 The "becoming a computational designer" roadmap is a comprehensive guide that outlines the necessary steps to becoming proficient in computational design. It covers foundational concepts such as data and algorithms, as well as more advanced topics. The roadmap also provides visual references, with equivalent concepts in Grasshopper highlighted in green and programming concepts highlighted in blue below:
 
-See [here](/roadmap/README.md) for more information about the **Roadmap: becoming a computational designer**.
+See [here](../../roadmap/README.md) for more information about the **Roadmap: becoming a computational designer**.
 
-[![Roadmap](/_static/roadmap-small.png)](/roadmap/roadmap.png)
+[![Roadmap](../../_static/roadmap-small.png)](../../roadmap/roadmap.png)
 
 <div style="display: flex; justify-content: center; align-items: center; height: 1vh;">
     <p style="font-size: 75%;">
