@@ -46,10 +46,16 @@ footer {
   display: none !important;
 }
 
-// Bilder: Sollen nie das Layout sprengen und zentriert sein
-pre, code, table {
+// Code-Blöcke und Tabellen scrollbar machen
+pre, table {
   overflow-x: auto;
   display: block;
+}
+
+// Inline Code soll inline bleiben
+code {
+  white-space: pre-wrap;
+  word-break: break-all;
 }
 
 // Schriftgröße leicht an Moodle anpassen
