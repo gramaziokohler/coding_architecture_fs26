@@ -52,10 +52,12 @@ pre, table {
   display: block;
 }
 
-// Inline Code soll inline bleiben
+// Inline Code soll wirklich inline bleiben
 code {
-  white-space: pre-wrap;
-  word-break: break-all;
+  display: inline !important;
+  white-space: normal !important;
+  word-break: break-word !important;
+  padding: 2px 4px !important;
 }
 
 // Schriftgröße leicht an Moodle anpassen
