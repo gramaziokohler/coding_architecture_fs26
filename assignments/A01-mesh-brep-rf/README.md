@@ -75,7 +75,7 @@ The assignment is split into three layers in three separate Python files:
 
 ## Deliverables
 
-One zip file [`mustermann_max_A-01.zip`] containing:
+Submit the following files:
 
 - Grasshopper File (`.ghx`)
   - File Name: `mustermann_max_A-01.ghx`
