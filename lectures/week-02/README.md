@@ -125,7 +125,7 @@ In our computational workflow, this shift is driven by the underlying **tessella
 
 ## Brep Meshing
 
-Before creating an RF system, we need a clean mesh. Since we want to work with NURBS surfaces or BReps for intuitive design control, we will write a custom **QuadMesher** to automate the discretization process based on UV evaluation.
+Before creating an RF system, we need a clean mesh. Since we want to work with NURBS surfaces or Breps for intuitive design control, we will write a custom **QuadMesher** to automate the discretization process based on UV evaluation.
 
 ![brep meshing](./images/brep-meshing.jpg)
 
@@ -142,13 +142,13 @@ To generate a mesh from a surface, we follow these steps:
 ### Dealing with Trimmed Surfaces
 The surfaces you design might be "trimmed" or have irregular boundaries. Our mesher handles this by:
 1. Checking `is_vertex_on_face` for each vertex to identify holes or boundary constraints.
-2. Only constructing faces where all vertices lie within the valid area of the BRep face.
+2. Only constructing faces where all vertices lie within the valid area of the Brep face.
 
 With this approach, you will be able to represent a wide variety of surfaces as a mesh to kickstart your design.
 
 ## Assignment A01: Brep Mesher
 
-In the first graded individual assignment, you will implement a custom `QuadMesher` class to generate quad meshes from BRep surfaces. The goal is to create a robust topological foundation for an RF system, handling UV mapping, vertex validation for trimmed surfaces, and materializing the structure using `compas_timber`.
+In the first graded individual assignment, you will implement a custom `QuadMesher` class to generate quad meshes from Brep surfaces. The goal is to create a robust topological foundation for an RF system, handling UV mapping, vertex validation for trimmed surfaces, and materializing the structure using `compas_timber`.
 
 Detailed instructions and tasks can be found here:
 [Assignment A01: Brep Mesher](../../assignments/A01-mesh-brep-rf/README.md)
