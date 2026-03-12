@@ -35,8 +35,9 @@ The central platform for all course content is [Moodle](https://moodle-app2.let.
 
 * Week 00 | [📽️ Python Refresher video](https://youtu.be/RVdyx8F6A0c) | [📽️ Installation guide](https://youtu.be/a2k6VeNUShg)
 * [Week 01](lectures/week-01/README.md) | [📚 Assignment A00: Ungraded](assignments/A00-compas-timber/README.md)
-* [Week 02](lectures/week-02/README.md) | [📚 Assignment A01: Brep meshing](assignments/a01-mesh-brep-rf/README.md)
+* [Week 02](lectures/week-02/README.md) | [📚 Assignment A01: Brep meshing](assignments/A01-mesh-brep-rf/README.md)
 * [Week 03](lectures/week-03/README.md) | No assignment
+* [Week 04](lectures/week-04/README.md) | [📚 Assignment 02: Mesh relaxation](assignments/A02-mesh-relax-rf/README.md)
 
 
 
